@@ -8395,14 +8395,14 @@ textarea.form-control-lg {
   --primary: #F2F2F2;
   --secondary: #687FA1;
   --secondary-hover: #7F94B1;
-  --tertiary: #2E2E2E;
-  --tertiary-circle: #666666; }
+  --tertiary: #ebeef3;
+  --circle: #666666;
+  --circle-border: #2E2E2E; }
 
 /* HEADER */
-.header_top {
+.header_topo {
   height: 737px;
-  width: 100%;
-  background-image: url(../img/background-top.png);
+  background-image: url(../../dist/img/background-top.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -8410,7 +8410,7 @@ textarea.form-control-lg {
 /* MENU TOPO */
 header .nav_content {
   height: 120px;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent; }
 
@@ -8483,14 +8483,14 @@ header .nav-link:hover {
   height: 12px;
   border-radius: 50%;
   background-color: var(--primary);
-  border: 1px solid var(--tertiary); }
+  border: 1px solid var(--circle-border); }
 
 .circle {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background-color: var(--tertiary-circle);
-  border: 1px solid var(--tertiary); }
+  background-color: var(--circle);
+  border: 1px solid var(--circle-border); }
 
 [data-tooltip] {
   position: relative;
@@ -8527,3 +8527,19 @@ header .nav-link:hover {
 
 [data-tooltip]:hover:before {
   display: block; }
+
+/* Logo Parceiros */
+.logo_partners {
+  display: flex;
+  align-items: center;
+  height: 113px;
+  background: var(--tertiary); }
+
+.itens_partners {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  margin-left: 85px;
+  opacity: 0.70; }
