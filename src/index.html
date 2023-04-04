@@ -16,7 +16,7 @@
     <title>Thiago Domingos</title>
   </head>
   <body>
-    <header class="header_topo container-fluid">
+    <header class="header_topo">
       <nav class="navbar navbar-expand-lg navbar-light justify-content-between nav_content">
         <a class="navbar-brand logo_topo" href="#">
           <img src="../dist/img/logo_topo.png" class="img-fluid" />
@@ -34,21 +34,22 @@
           </ul>
         </div>
       </nav>
-      <section class="row header_content">
-          <div class="col-6 header_text">
-              <p class="campaign_text">Você está a uma <span class="fw_800"> grande campanha</span> de se tornar a marca <span class="fw_500"> mais desejada </span> do seu mercado</p>
-              <button class="campaign_btn">Saiba mais aqui <img src="../dist/img/icon/down_arrow.svg" alt=""></button>
-          </div>
-            <div class="col-6 floating_menu">
-            <div class="active_circle"><a href="#" alt="Home"></a></div>
-            <span data-tooltip="Sobre"><div class="circle"></div></span>
-            <span data-tooltip="Blog"><div class="circle"></div></span>
-            <span data-tooltip="Portfólio"><div class="circle"></div></span>
-            <span data-tooltip="Contatos"><div class="circle"></div></span>
-          </div>
-      </section>
+      <div class="container-fluid row">
+        <div class="col-6 content_big-campaign">
+          <p class="big_campaign-text">Você está a uma <span class="fw_800"> grande campanha</span> de se tornar a marca <span class="fw_500"> mais desejada </span> do seu mercado</p>
+          <button class="campaign_btn">Saiba mais aqui <img src="../dist/img/icon/down_arrow.svg" alt=""></button>
+        </div>
+        <div class="col-6 floating_menu">
+          <span class="active_circle"><a href="#" alt="Home"></a></span>
+          <span data-tooltip="Sobre"><div class="circle"></div></span>
+          <span data-tooltip="Blog"><div class="circle"></div></span>
+          <span data-tooltip="Portfólio"><div class="circle"></div></span>
+          <span data-tooltip="Contatos"><div class="circle"></div></span>
+        </div>
+      </div>
     </header>
-    <section class="container-fluid logo_partners">
+    
+    <section class="logo_partners">
       <div class="itens_partners">
         <img src="../dist/img/logo-parceiros/1_onm.png" alt="O Novo Mercado">
         <img src="../dist/img/logo-parceiros/2_me-poupe.png" alt="Me Poupe">
@@ -60,5 +61,19 @@
         <img src="../dist/img/logo-parceiros/8-maybelline.png" alt="Maybel Line">
       </div>
     </section>
+
+    <section class="written_campaign">
+      <div class="content_written-campaign">
+        <div class="written_campaign-title">
+          <p>O que uma campanha de marketing bem escrita pode fazer?</p>
+        </div>
+        <div class="written_campaign-text">
+          <p>As empresas mais valiosas do mundo se consolidaram no mercado através de grandes campanhas de marketing. Campanhas capazes       de mover o ponteiro do faturamento com criatividade e elegância.
+            <br><br>
+            Foi assim com a Volkswagen, a Havaianas, a Marlboro, a Brastemp e tantas outras marcas que hoje todo mundo conhece. Se você quer impulsionar as vendas do produto que será o maior case da sua carreira, se concentre em escrever uma única campanha de marketing capaz de mover os resultados da sua empresa por longos anos.</p>
+        </div>
+      </div>  
+    </section>
+
   </body>
 </html>

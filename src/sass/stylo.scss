@@ -10,11 +10,12 @@
 }
 :root{
     --primary: #F2F2F2;
+    --primary-medium: #F4F6F7;
+    --primary-light: #ebeef3;
     --secondary: #687FA1;
-    --secondary-hover: #7F94B1;
-    --tertiary: #ebeef3;
-    --circle: #666666;
-    --circle-border: #2E2E2E;
+    --secondary-light: #7F94B1;
+    --tertiary: #2E2E2E;
+    --tertiary-light: #666666;
 }
 
 /* HEADER */
@@ -29,7 +30,6 @@
 /* MENU TOPO */
 header .nav_content{
     height: 120px;
-    width: 100vw;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     background-color: transparent;
 }
@@ -55,12 +55,11 @@ header .nav-link:hover{
 }
 
 /* TEXTO HEADER */
-.header_text{
+.content_big-campaign{
     padding-top: 106px;
-    padding-left: 180px;
-    
+    padding-left: 180px
 }
-.campaign_text{
+.big_campaign-text{
     color: var(--primary);
     font-size: 2.625rem;
     font-weight: 400;
@@ -88,7 +87,7 @@ header .nav-link:hover{
     margin-left: 10px;
 }
 .campaign_btn:hover{
-    background-color: var(--secondary-hover);
+    background-color: var(--secondary-light);
 }
 
 /* MENU LATERAL */
@@ -98,21 +97,21 @@ header .nav-link:hover{
     justify-content: center;
     align-items: end;
     gap: 30px;
-    padding-right: 70px;
+    padding-right: 40px;
 }
 .active_circle{
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: var(--primary);
-    border: 1px solid var(--circle-border);
+    border: 1px solid var(--tertiary);
 }
 .circle{
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background-color: var(--circle);
-    border: 1px solid var(--circle-border);
+    background-color: var(--tertiary-light);
+    border: 1px solid var(--tertiary);
 }
 [data-tooltip] {
     position: relative;
@@ -130,7 +129,7 @@ header .nav-link:hover{
     border-radius: 2px;
     content: attr(data-tooltip);
     white-space: nowrap;
-    background-color: var(--secondary-hover);
+    background-color: var(--secondary-light);
     color: var(--primary);
 }
 [data-tooltip]:before {
@@ -142,7 +141,7 @@ header .nav-link:hover{
 	transform: rotate(45deg);
 	width: 10px;
 	height: 10px;
-	background-color: var(--secondary-hover);
+	background-color: var(--secondary-light);
 }
 [data-tooltip]:hover:after {
     display: block;
@@ -156,7 +155,7 @@ header .nav-link:hover{
     display: flex;
     align-items: center;
     height: 113px;
-    background: var(--tertiary);
+    background: var(--primary-light);
 }
 .itens_partners{
     display: flex;
@@ -166,4 +165,32 @@ header .nav-link:hover{
     gap: 32px;
     margin-left: 85px;
     opacity: 0.70;
+}
+
+/* Campanha bem escrita */
+.written_campaign{
+    background-color: var(--primary-medium);
+    background-image: url(../../dist/img/background_pen.png);
+    background-repeat: no-repeat;
+    background-size: 51%;
+    background-position: right bottom;
+}
+.content_written-campaign{
+    padding-left: 180px;   
+}
+.written_campaign-title{
+    width: 636px;
+    padding-top: 44px;
+    font-size: 2.625rem;
+    font-weight: 600;
+    line-height: 63px;
+    color: var(--tertiary);
+}
+.written_campaign-text{
+    width: 636px; 
+    margin-top: 30px;
+    padding-bottom: 66px;
+    font-weight: 400;
+    font-size: 1.188rem;
+    color: var(--tertiary);
 }
