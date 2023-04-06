@@ -8560,7 +8560,6 @@ header .nav-link:hover {
   padding-left: 180px; }
 
 .written_campaign-title {
-  width: 636px;
   padding-top: 44px;
   font-size: 2.625rem;
   font-weight: 600;
@@ -8568,7 +8567,6 @@ header .nav-link:hover {
   color: var(--tertiary); }
 
 .written_campaign-text {
-  width: 636px;
   margin-top: 30px;
   padding-bottom: 66px;
   font-weight: 400;
@@ -8671,3 +8669,36 @@ header .nav-link:hover {
   font-weight: 400;
   font-size: 0.875rem;
   color: #A6A6A6; }
+
+/* Quem escreveu essas campanhas */
+.wrote_campaign {
+  background-image: url(../../dist/img/bg_wrote_campaign.png); }
+
+.content_wrote-campaign {
+  display: flex;
+  padding-left: 180px; }
+
+.wrote_campaign-title {
+  padding-top: 64px;
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 63px;
+  color: #F2F2F2; }
+
+.wrote_campaign-text {
+  margin-top: 36px;
+  padding-bottom: 66px;
+  font-weight: 400;
+  font-size: 1.188rem;
+  color: #F2F2F2; }
+
+.wrote_campaign-img {
+  padding-top: 113px;
+  padding-left: 123px; }
+
+.wrote_campaign-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  opacity: 0.75; }
