@@ -328,3 +328,105 @@ header .nav-link:hover{
     padding-top: 40px;
     opacity: 0.75;
 }
+
+/* Como Thiago pode ajudar */  
+.help_thiago{
+    background-color: #131212;
+    background-image: url(../../dist/img/bg_help.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.help_thiago-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.625rem;
+    line-height: 63px;
+    color: #F2F2F2;
+    padding-left: 180px;
+    padding-top: 64px;
+    padding-bottom: 90px;
+}
+.help_frames{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 32px;
+    padding-bottom: 190px;
+}
+.help_frame_text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 312px;
+    padding-top: 74px;
+    padding-left: 30px;
+}
+.help_frame_text h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #ACB9CD;
+}
+.help_frame_text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #F2F2F2; 
+    padding-top: 20px;
+}
+.help_frame_01{
+    background-image: url(../../dist/img/frame01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 350px;
+    width: 328px;
+}
+.help_frame_01_btn{
+    background-color: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ACB9CD; 
+    padding-top: 30px;
+}
+.help_frame_02{
+    background-image: url(../../dist/img/frame02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 380px;
+    width: 328px;
+}
+.help_frame_02_btn{
+    background-color: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ACB9CD; 
+    padding-top: 30px;
+}
+.help_frame_03{
+    background-image: url(../../dist/img/frame03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 340px;
+    width: 328px;
+}
+.help_frame_03_btn{
+    background-color: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ACB9CD; 
+    padding-top: 30px;
+}
+
+
+
