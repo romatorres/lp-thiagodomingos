@@ -347,6 +347,9 @@ header .nav-link:hover{
     padding-top: 64px;
     padding-bottom: 90px;
 }
+.help_thiago-title span{
+    color: #ACB9CD;
+}
 .help_frames{
     display: flex;
     justify-content: center;
@@ -426,6 +429,64 @@ header .nav-link:hover{
     font-size: 1rem;
     color: #ACB9CD; 
     padding-top: 30px;
+} 
+
+/* Blog Thiago */
+.blog_thiago{
+    background-color: #F4F6F7;
+}
+.blog_thiago-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.625remx;
+    line-height: 63px;
+    color: #2E2E2E; 
+    padding-top: 65px;
+    padding-left: 180px;
+}
+.blog_thiago-cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    gap: 97px;
+}
+.card_blog{
+    width: 293px;
+}
+.card_title h3{
+    font-size: 1.188rem;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2E2E2E;
+}
+.card_text p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F4F4F;
+}
+.blog_btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+    padding-bottom: 62px;
+}
+.blog_btn button{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    margin-top: 56px;
+    padding: 17px 64px;
+    background-color: #687FA1;
+}
+.blog_btn button:hover{
+    background-color: var(--secondary-light);
 }
 
 
