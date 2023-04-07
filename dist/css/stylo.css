@@ -8817,11 +8817,17 @@ header .nav-link:hover {
   padding-top: 65px;
   padding-left: 180px; }
 
+.blog_thiago-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 .blog_thiago-cards {
   display: flex;
   justify-content: center;
   padding-top: 64px;
-  gap: 97px; }
+  gap: 136px; }
 
 .card_blog {
   width: 293px; }
@@ -8842,10 +8848,27 @@ header .nav-link:hover {
   text-align: left;
   color: #4F4F4F; }
 
+.button_slide-card {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  gap: 10px; }
+
+.button_slide-card .btn_item {
+  width: 24px;
+  height: 2px;
+  background-color: #A6A6A6;
+  border: none; }
+
+.button_slide-card .active {
+  background-color: #1A1A1A; }
+
+.linhabaixo {
+  width: 1160px;
+  border: 0.70px solid #A6A6A6; }
+
 .blog_btn {
   display: flex;
   justify-content: center;
-  padding-top: 56px;
   padding-bottom: 62px; }
 
 .blog_btn button {
