@@ -432,15 +432,6 @@ header .nav-link:hover{
     height: 350px;
     width: 328px;
 }
-.help_frame_01_btn{
-    background-color: transparent;
-    border: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    color: #ACB9CD; 
-    padding-top: 30px;
-}
 .help_frame_02{
     background-image: url(../../dist/img/frame02.png);
     background-repeat: no-repeat;
@@ -448,15 +439,6 @@ header .nav-link:hover{
     background-position: center center;
     height: 380px;
     width: 328px;
-}
-.help_frame_02_btn{
-    background-color: transparent;
-    border: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    color: #ACB9CD; 
-    padding-top: 30px;
 }
 .help_frame_03{
     background-image: url(../../dist/img/frame03.png);
@@ -466,7 +448,7 @@ header .nav-link:hover{
     height: 340px;
     width: 328px;
 }
-.help_frame_03_btn{
+.help_frame_btn{
     background-color: transparent;
     border: none;
     font-style: normal;
@@ -474,7 +456,10 @@ header .nav-link:hover{
     font-size: 1rem;
     color: #ACB9CD; 
     padding-top: 30px;
-} 
+}
+.help_frame_btn:hover{
+    color: #7F94B1;
+}
 
 /* Blog Thiago */
 .blog_thiago{
@@ -510,7 +495,16 @@ header .nav-link:hover{
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+    padding-top: 14px;
+}
+.card_title h3 a{
+    text-decoration: none;
     color: #2E2E2E;
+    transition: all 0.3s;
+}
+.card_title h3 a:hover{
+    color: #687FA1;
+    transition: all 0.3s;
 }
 .card_text p{
     font-size: 1rem;
@@ -538,23 +532,33 @@ header .nav-link:hover{
     width: 1160px;
     border: 0.70px solid #A6A6A6;
 }
-.blog_btn{
+.btn_blog{
     display: flex;
     justify-content: center;
     padding-bottom: 62px;
 }
-.blog_btn button{
+.btn_blog button{
     font-size: 1rem;
     font-weight: 600;
     color: #F2F2F2;
     border: none;
     border-radius: 5px;
     margin-top: 56px;
-    padding: 17px 64px;
+    width: 197px;
+    height: 50px;
     background-color: #687FA1;
 }
-.blog_btn button:hover{
+.btn_blog img{
+    display: none;
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+}
+.btn_blog button:hover{
     background-color: var(--secondary-light);
+}
+.btn_blog button:hover img{
+    display: inline;
 }
 
 /* Campanhas de marketing assinadas por Thiago Domingos */
