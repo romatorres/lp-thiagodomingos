@@ -8699,10 +8699,54 @@ header .nav-link:hover {
 
 .wrote_campaign-logo {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding-top: 40px;
-  opacity: 0.75; }
+  align-items: center;
+  padding-top: 59px;
+  padding-bottom: 30px;
+  gap: 34px; }
+
+.wrote_campaign-logo button {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  height: 142px;
+  width: 305px;
+  transition: all 0.8s;
+  opacity: 0.8; }
+
+.wrote_campaign-logo button.folha {
+  background-image: url(../../dist/img/logo-parceiros/folha_dark.png); }
+
+.wrote_campaign-logo button.folha:hover {
+  background-image: url(../../dist/img/logo-parceiros/folha_light.png);
+  transition: all 0.7s;
+  opacity: 2; }
+
+.wrote_campaign-logo button.voce_sa {
+  background-image: url(../../dist/img/logo-parceiros/voce_dark.png); }
+
+.wrote_campaign-logo button.voce_sa:hover {
+  background-image: url(../../dist/img/logo-parceiros/voce_light.png);
+  transition: all 0.8s;
+  opacity: 2; }
+
+.wrote_campaign-logo button.empreenda {
+  background-image: url(../../dist/img/logo-parceiros/empreenda_dark.png); }
+
+.wrote_campaign-logo button.empreenda:hover {
+  background-image: url(../../dist/img/logo-parceiros/empreenda_light.png);
+  transition: all 0.8s;
+  opacity: 2; }
+
+.wrote_campaign-logo button.uol {
+  background-image: url(../../dist/img/logo-parceiros/uol_dark.png); }
+
+.wrote_campaign-logo button.uol:hover {
+  background-image: url(../../dist/img/logo-parceiros/uol_light.png);
+  transition: all 0.8s;
+  opacity: 2; }
 
 /* Como Thiago pode ajudar */
 .help_thiago {
