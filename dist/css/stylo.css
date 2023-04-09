@@ -9027,3 +9027,54 @@ textarea.form-control {
   display: flex;
   justify-content: end;
   margin-top: 40px; }
+
+/* Footer */
+.footer_thiago {
+  background-color: #131212;
+  padding-left: 75px;
+  padding-right: 75px; }
+
+.footer_topo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px; }
+
+.social_footer {
+  display: flex;
+  gap: 24px; }
+
+.footer_links {
+  display: flex;
+  padding-top: 36px;
+  padding-bottom: 36px; }
+
+.footer_menu {
+  padding-right: 86px; }
+
+.footer_links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0px;
+  gap: 8px;
+  list-style-type: none; }
+
+.footer_links ul li {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 21px;
+  color: #A6A6A6; }
+
+.footer_copyright {
+  text-align: center;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 18px;
+  color: #666666;
+  border-top: 0.5px solid #666666; }
+
+.footer_copyright p {
+  padding-top: 8px; }
