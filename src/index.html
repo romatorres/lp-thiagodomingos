@@ -16,7 +16,7 @@
     <title>Thiago Domingos</title>
   </head>
   <body>
-    <header class="header_topo">
+    <header class="header_topo" id="home">
       <nav class="navbar navbar-expand-lg navbar-light justify-content-between nav_content">
         <a class="navbar-brand logo_topo" href="#">
           <img src="../dist/img/logo_topo.png" class="img-fluid" />
@@ -26,11 +26,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link itens_nav" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link itens_nav" href="#">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link itens_nav" href="#">Blog</a></li>
-            <li class="nav-item"><a class="nav-link itens_nav" href="#">Portfólio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contatos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
           </ul>
         </div>
       </nav>
@@ -40,11 +40,11 @@
           <button class="btn_campaign">Saiba mais aqui <img src="../dist/img/icon/down_arrow.svg" alt=""></button>
         </div>
         <div class="col-6 floating_menu">
-          <span class="active_circle"><a href="#" alt="Home"></a></span>
-          <span data-tooltip="Sobre"><div class="circle"></div></span>
-          <span data-tooltip="Blog"><div class="circle"></div></span>
-          <span data-tooltip="Portfólio"><div class="circle"></div></span>
-          <span data-tooltip="Contatos"><div class="circle"></div></span>
+          <span class="active_circle"><a href="#home" alt="Home"></a></span>
+          <span data-tooltip="Sobre"><a class="nav-link circle" href="#sobre" alt="Sobre"></a></span>
+          <span data-tooltip="Blog"><a class="nav-link circle" href="#blog" alt="Blog"></a></span>
+          <span data-tooltip="Portfólio"><a class="nav-link circle" href="#portfolio" alt="Portfólio"></a></span>
+          <span data-tooltip="Contatos"><a class="nav-link circle" href="#contatos" alt="Contatos"></a></span>
         </div>
       </div>
     </header>
@@ -104,7 +104,7 @@
       </div>
     </section>
       
-    <section class="wrote_campaign">
+    <section class="wrote_campaign" id="sobre">
       <div class="content_wrote-campaign">
         <div class="col-6">
           <div class="wrote_campaign-title">
@@ -158,7 +158,7 @@
       
     </section>
 
-    <section class="blog_thiago">
+    <section class="blog_thiago" id="blog">
       <div class="blog_thiago-title">
         <h2>Blog oficial do Thiago Domingos</h2>
       </div>
@@ -204,7 +204,7 @@
       </div>
     </section>
 
-    <section class="signed_thiago">
+    <section class="signed_thiago" id="portfolio">
       <div class="col-7 signed_title">
         <p>Campanhas de marketing assinadas por Thiago Domingos</p>
       </div>
@@ -214,7 +214,7 @@
       </div>
       <div class="signed_zoom">
         <img class="img-fluid" src="../dist/img/bg/bg_signed02.png" alt="">
-        <label class="title_signed-zoom">O NOVO MERCADO</label>
+        <label class="title_signed-zoom"><a href="../src/new_market.html">O NOVO MERCADO</a></label>
       </div>
       <div class="signed_zoom">
         <img class="img-fluid" src="../dist/img/bg/bg_signed03.png" alt="">
@@ -225,7 +225,7 @@
       </div>
     </section>
 
-    <section class="contact_thiago">
+    <section class="contact_thiago" id="contatos">
       <div class="title_contact-thiago">
         <h2>Entre em contato</h2>
       </div>

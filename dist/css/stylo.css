@@ -8395,15 +8395,9 @@ textarea.form-control-lg {
 p {
   margin: 0; }
 
-:root {
-  --primary: #F2F2F2;
-  --primary-medium: #F4F6F7;
-  --primary-light: #ebeef3;
-  --secondary: #687FA1;
-  --secondary-light: #7F94B1;
-  --tertiary: #2E2E2E;
-  --tertiary-light: #666666;
-  --tertiary-dark: #1a1a1a; }
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #FFFFFF; }
 
 /* HEADER */
 .header_topo {
@@ -8445,7 +8439,7 @@ header .nav-link:hover {
   padding-left: 180px; }
 
 .big_campaign-text {
-  color: var(--primary);
+  color: #F2F2F2;
   font-size: 2.625rem;
   font-weight: 400; }
 
@@ -8459,12 +8453,12 @@ header .nav-link:hover {
 .btn_campaign {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--primary);
+  color: #F2F2F2;
   border: none;
   border-radius: 5px;
   margin-top: 56px;
   padding: 17px 38px 17px 38px;
-  background-color: var(--secondary); }
+  background-color: #687FA1; }
 
 .btn_campaign img {
   width: 14px;
@@ -8472,7 +8466,7 @@ header .nav-link:hover {
   margin-left: 10px; }
 
 .btn_campaign:hover {
-  background-color: var(--secondary-light); }
+  background-color: #7F94B1; }
 
 /* MENU LATERAL */
 .floating_menu {
@@ -8487,15 +8481,15 @@ header .nav-link:hover {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: var(--primary);
-  border: 1px solid var(--tertiary); }
+  background-color: #F2F2F2;
+  border: 1px solid #2E2E2E; }
 
 .circle {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background-color: var(--tertiary-light);
-  border: 1px solid var(--tertiary); }
+  background-color: #666666;
+  border: 1px solid #2E2E2E; }
 
 [data-tooltip] {
   position: relative;
@@ -8513,8 +8507,8 @@ header .nav-link:hover {
   border-radius: 2px;
   content: attr(data-tooltip);
   white-space: nowrap;
-  background-color: var(--secondary-light);
-  color: var(--primary); }
+  background-color: #7F94B1;
+  color: #F2F2F2; }
 
 [data-tooltip]:before {
   content: '';
@@ -8525,7 +8519,7 @@ header .nav-link:hover {
   transform: rotate(45deg);
   width: 10px;
   height: 10px;
-  background-color: var(--secondary-light); }
+  background-color: #7F94B1; }
 
 [data-tooltip]:hover:after {
   display: block; }
@@ -8538,7 +8532,7 @@ header .nav-link:hover {
   display: flex;
   align-items: center;
   height: 113px;
-  background: var(--primary-light); }
+  background: #ebeef3; }
 
 .itens_partners {
   display: flex;
@@ -8551,7 +8545,7 @@ header .nav-link:hover {
 
 /* Campanha bem escrita */
 .written_campaign {
-  background-color: var(--primary-medium);
+  background-color: #F4F6F7;
   background-image: url(../../dist/img/bg/bg_pen.png);
   background-repeat: no-repeat;
   background-size: 51%;
@@ -8565,14 +8559,14 @@ header .nav-link:hover {
   font-size: 2.625rem;
   font-weight: 600;
   line-height: 63px;
-  color: var(--tertiary); }
+  color: #2E2E2E; }
 
 .written_campaign-text {
   margin-top: 30px;
   padding-bottom: 66px;
   font-weight: 400;
   font-size: 1.188rem;
-  color: var(--tertiary); }
+  color: #2E2E2E; }
 
 /* Investir em grandes campanhas */
 .invested_campaign {
@@ -8928,7 +8922,7 @@ header .nav-link:hover {
   margin-left: 10px; }
 
 .btn_blog button:hover {
-  background-color: var(--secondary-light); }
+  background-color: #7F94B1; }
 
 .btn_blog button:hover img {
   display: inline; }
@@ -8982,12 +8976,12 @@ header .nav-link:hover {
 .btn_signed {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--primary);
+  color: #F2F2F2;
   border: none;
   border-radius: 5px;
   width: 233px;
   height: 50px;
-  background-color: var(--secondary); }
+  background-color: #687FA1; }
 
 .btn_signed img {
   display: none;
@@ -8996,7 +8990,7 @@ header .nav-link:hover {
   margin-left: 10px; }
 
 .btn_signed:hover {
-  background-color: var(--secondary-light); }
+  background-color: #7F94B1; }
 
 .btn_signed:hover img {
   display: inline; }
@@ -9069,7 +9063,7 @@ textarea.form-control {
   padding: 17px 36px 17px 36px; }
 
 .btn-primary:hover {
-  background-color: var(--secondary-light) !important; }
+  background-color: #7F94B1 !important; }
 
 .btn_form {
   display: flex;
