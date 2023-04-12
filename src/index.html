@@ -13,17 +13,19 @@
     <link rel="shortcut icon" type="image/icon" href="/assets/img/img1.png" />
     <!--CSS-->
     <link rel="stylesheet" href="../dist/css/stylo.css" />
+    <link rel="stylesheet" href="../dist/css/responsive.css">
     <title>Thiago Domingos</title>
   </head>
-  <body>
-    <header class="header_topo" id="home">
+  <body class="container-fluid">
+    <header class="row header_topo" id="home"> <!-- Header topo -->
+      
       <nav class="navbar navbar-expand-lg navbar-light justify-content-between nav_content">
         <a class="navbar-brand logo_topo" href="#">
           <img src="../dist/img/logo_topo.png" class="img-fluid" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
@@ -34,36 +36,57 @@
           </ul>
         </div>
       </nav>
+
       <div class="container-fluid row">
-        <div class="col-6 content_big-campaign">
-          <p class="big_campaign-text">Você está a uma <span class="fw_800"> grande campanha</span> de se tornar a marca <span class="fw_500"> mais desejada </span> do seu mercado</p>
+        <div class="col-md-12 col-lg-7 content_big-campaign">
+          <h1 class="big_campaign-text">Você está a uma <span class="fw_800"> grande campanha</span> de se tornar a marca <span class="fw_500"> mais desejada </span> do seu mercado</h1>
+        </div>
+        <div class="btn_big-campaign">
           <button class="btn_campaign">Saiba mais aqui <img src="../dist/img/icon/down_arrow.svg" alt=""></button>
         </div>
-        <div class="col-6 floating_menu">
-          <span class="active_circle"><a href="#home" alt="Home"></a></span>
-          <span data-tooltip="Sobre"><a class="nav-link circle" href="#sobre" alt="Sobre"></a></span>
-          <span data-tooltip="Blog"><a class="nav-link circle" href="#blog" alt="Blog"></a></span>
-          <span data-tooltip="Portfólio"><a class="nav-link circle" href="#portfolio" alt="Portfólio"></a></span>
-          <span data-tooltip="Contatos"><a class="nav-link circle" href="#contatos" alt="Contatos"></a></span>
-        </div>
+          <!-- <div class="col-lg-5 floating_menu">
+            <span class="active_circle"><a href="#home" alt="Home"></a></span>
+            <span data-tooltip="Sobre"><a class="nav-link circle" href="#sobre" alt="Sobre"></a></span>
+            <span data-tooltip="Blog"><a class="nav-link circle" href="#blog" alt="Blog"></a></span>
+            <span data-tooltip="Portfólio"><a class="nav-link circle" href="#portfolio" alt="Portfólio"></a></span>
+            <span data-tooltip="Contatos"><a class="nav-link circle" href="#contatos" alt="Contatos"></a></span>
+          </div> -->
       </div>
     </header>
     
-    <section class="logo_partners">
-      <div class="itens_partners">
-        <img src="../dist/img/logo-parceiros/1_onm.png" alt="O Novo Mercado">
-        <img src="../dist/img/logo-parceiros/2_me-poupe.png" alt="Me Poupe">
-        <img src="../dist/img/logo-parceiros/3_xpinc.png" alt="XP Inc">
-        <img src="../dist/img/logo-parceiros/4_empiricusresearch.png" alt="Empiricus Research">
-        <img src="../dist/img/logo-parceiros/5_lead-tracker.png" alt="Lead Tracker">
-        <img src="../dist/img/logo-parceiros/6_brasil-sem-medo.png" alt="Brasil Sem Medo">
-        <img src="../dist/img/logo-parceiros/7_dotlemon.png" alt="Dot Lemon">
-        <img src="../dist/img/logo-parceiros/8-maybelline.png" alt="Maybel Line">
+    <section class="row"> <!-- Logo Partners -->
+      <div class="col-12 logo_partners">
+        <div class="itens_partners">
+          <div>
+            <img class="img-fluid" src="../dist/img/logo-parceiros/1_onm.png" alt="O Novo Mercado">
+          </div>
+          <div>
+            <img class="img-fluid" src="../dist/img/logo-parceiros/2_me-poupe.png" alt="Me Poupe">
+          </div>
+          <div>
+            <img class="img-fluid" src="../dist/img/logo-parceiros/3_xpinc.png" alt="XP Inc">
+          </div>
+          <div>
+            <img class="img-fluid" src="../dist/img/logo-parceiros/4_empiricusresearch.png" alt="Empiricus Research">
+          </div>
+          <div>
+            <img class="img-fluid" src="../dist/img/logo-parceiros/5_lead-tracker.png" alt="Lead Tracker">
+          </div>
+          <div>
+            <img class="img-fluid" src="../dist/img/logo-parceiros/6_brasil-sem-medo.png" alt="Brasil Sem Medo">
+          </div>
+          <div>
+            <img class="img-fluid" src="../dist/img/logo-parceiros/7_dotlemon.png" alt="Dot Lemon">
+          </div>
+          <div>
+            <img class="img-fluid" src="../dist/img/logo-parceiros/8-maybelline.png" alt="Maybel Line">
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="written_campaign">
-      <div class="col-7 content_written-campaign">
+    <section class="row written_campaign"> <!-- Written campaign -->
+      <div class="col-md-12 col-lg-8 content_written-campaign">
         <div class="written_campaign-title">
           <p>O que uma campanha de marketing bem escrita pode fazer?</p>
         </div>
@@ -75,12 +98,12 @@
       </div>  
     </section>
 
-    <section class="invested_campaign">
-      <div class=" col-8 invested_text">
-        <p>Eles investiram em grandes campanhas de marketing</p>
+    <section class="row invested_campaign"> <!-- Invested campaign -->
+      <div class=" col-lg-8 col-md-12 invested_text">
+        <h2>Eles investiram em grandes campanhas de marketing</h2>
       </div>
-      <div class="depositions_content">
-        <div class="depositions_infor">
+      <div class="row depositions_content">
+        <div class="order-2 order-sm-2 order-md-2 order-lg-1 col-lg-11 col-md-12 depositions_infor">
           <p class="depositions_title">Depoimentos</p>
           <p class="depositions_text">"Tive a oportunidade de contar com o Thiago em alguns projetos n'O Novo Mercado. Um copywriter talentoso e muito competente em todas as suas entregas, além de uma pessoa solícita e muito confiável. Recomendo fortemente tanto o seu trabalho como a sua amizade."</p>
           <div class="depositions_img">
@@ -93,7 +116,7 @@
             <p class="depositions_function">Gerente de Marketing d'O Novo Mercado</p>
           </div>
         </div>
-        <div class="depositions_count">
+        <div class="order-1 order-sm-1 order-md-1 order-lg-2 col-lg-1 col-md-12 depositions_count">
           <ul>
             <li class="count_main">01</li>
             <li class="count_border">02</li>
@@ -104,9 +127,9 @@
       </div>
     </section>
       
-    <section class="wrote_campaign" id="sobre">
-      <div class="content_wrote-campaign">
-        <div class="col-6">
+    <section class="row wrote_campaign" id="sobre"> <!-- Wrote campaign -->
+      <div class="row content_wrote-campaign">
+        <div class="col-lg-6 col-md-12">
           <div class="wrote_campaign-title">
             <p>Quem escreveu essas campanhas de marketing?</p>
           </div>
@@ -116,8 +139,8 @@
             Escreveu e liderou grandes campanhas de marketing para diversas marcas, dentre elas: XP Inc., FAAP, Maybelline, V4 Company, Empiricus, O Novo Mercado e vários outros players.</p>
           </div>
         </div>
-        <div class="col-6 wrote_campaign-img img-fluid">
-          <img src="../dist/img/thiago.png" alt="">
+        <div class="col-lg-6 col-md-12 col-sm-12 wrote_campaign-img ">
+          <img class="img-fluid" src="../dist/img/thiago.png" alt="">
         </div>
       </div>
       <div class="wrote_campaign-logo">
@@ -128,26 +151,26 @@
       </div>
     </section>
 
-    <section class="help_thiago">
-      <div class="col-6 help_thiago-title">
+    <section class="row help_thiago"> <!-- Help -->
+      <div class="col-lg-8 col-md-12 col-sm-12 help_thiago-title">
         <p>Como o Thiago Domingos <span> pode te ajudar? </span></p>
       </div>
-      <div class="help_frames">
-        <div class="help_frame_01">
+      <div class="row help_frames">
+        <div class="col-xl-12 help_frame_01">
             <div class="help_frame_text">
               <h2>Sua próxima campanha de marketing digital.</h2>
               <p>Tenha o Thiago Domingos idealizando e dirigindo a campanha que trará os holofotes e a exposição que você busca para a sua marca.</p>
               <button class="help_frame_btn">[Saiba mais]</button>
             </div>
         </div>
-        <div class="help_frame_02">
+        <div class="col-xl-12 help_frame_02">
           <div class="help_frame_text">
             <h2>Torne-se um copywriter respeitado.</h2>
             <p>Ingressando no grupo estratégico do Thiago Domingos, a Hotlist, você vai lapidar a sua técnica e terá a chance de participar com ele de algumas das maiores campanhas de marketing digital do Brasil.</p>
             <button class="help_frame_btn">[Saiba mais]</button>
           </div>
         </div>
-        <div class="help_frame_03">
+        <div class="col-xl-12 help_frame_03">
           <div class="help_frame_text">
             <h2>Assine a newsletter</h2>
             <p>Assinando a newsletter gratuita do Thiago Domingos, você vai aprender como construir campanhas de marketing inteligentes e que mudam empresas de patamar.</p>
@@ -158,14 +181,14 @@
       
     </section>
 
-    <section class="blog_thiago" id="blog">
+    <section class="row blog_thiago" id="blog"> <!-- Blog -->
       <div class="blog_thiago-title">
         <h2>Blog oficial do Thiago Domingos</h2>
       </div>
       <div class="blog_thiago-row">
-        <div class="col-9 blog_thiago-cards">
-          <div class="card_blog">
-            <img src="../dist/img/blog_01.png" alt="">
+        <div class="row blog_thiago-cards">
+          <div class="col-lg-4 col-md-12 card_blog">
+            <img class="img-fluid" src="../dist/img/blog_01.png" alt="">
             <div class="card_title">
               <h3><a href="">Como criar um storytelling poderoso para vender mais</a></h3>
             </div>
@@ -173,8 +196,8 @@
               <p>Um storytelling envolvente e bem construído pode ser uma ferramenta poderosa para ...</p>
             </div>
           </div>
-          <div class="card_blog">
-            <img src="../dist/img/blog_02.png" alt="">
+          <div class="col-lg-4 col-md-12 card_blog">
+            <img class="img-fluid" src="../dist/img/blog_02.png" alt="">
             <div class="card_title">
               <h3><a href="">Como usar o copywriting para converter em vendas</a></h3>
             </div>
@@ -182,8 +205,8 @@
               <p>O copywriting eficaz é capaz de transformar simples palavras em uma mensagem persuasiva ...</p>
             </div>
           </div>
-          <div class="card_blog">
-            <img src="../dist/img/blog_03.png" alt="">
+          <div class="col-lg-4 col-md-12 card_blog">
+            <img class="img-fluid" src="../dist/img/blog_03.png" alt="">
             <div class="card_title">
               <h3><a href="">Escolhendo das cores pode influenciar nas vendas</a></h3>
             </div>
@@ -204,9 +227,9 @@
       </div>
     </section>
 
-    <section class="signed_thiago" id="portfolio">
-      <div class="col-7 signed_title">
-        <p>Campanhas de marketing assinadas por Thiago Domingos</p>
+    <section class="row signed_thiago" id="portfolio"> <!-- Signed -->
+      <div class="col-lg-8 col-md-12 signed_title">
+        <h2>Campanhas de marketing assinadas por Thiago Domingos</h2>
       </div>
       <div class="signed_zoom">
         <img class="img-fluid" src="../dist/img/bg/bg_signed01.png" alt="">
@@ -225,7 +248,7 @@
       </div>
     </section>
 
-    <section class="contact_thiago" id="contatos">
+    <section class="row contact_thiago" id="contatos"> <!-- Contact -->
       <div class="title_contact-thiago">
         <h2>Entre em contato</h2>
       </div>
@@ -267,7 +290,7 @@
       </div>
     </section>
 
-    <footer class="footer_thiago">
+    <footer class="row footer_thiago"> <!-- Footer -->
       <div class="footer_topo">
         <div class="logo_footer">
           <img src="../dist/img/logo_footer.png" alt="">
@@ -300,5 +323,7 @@
         <p>Copyright © 2023 Pedro Sobral. Todos os direitos reservados</p>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

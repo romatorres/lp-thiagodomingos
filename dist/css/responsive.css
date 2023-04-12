@@ -1,0 +1,91 @@
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+  .header_topo {
+    background-image: url(../../dist/img/bg/bg_header_md.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  .content_big-campaign {
+    padding-top: 700px;
+    padding-left: 70px; }
+  .btn_big-campaign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 70px; }
+  .content_wrote-campaign {
+    display: flex;
+    padding-left: 70px; }
+  .wrote_campaign-img {
+    padding-top: 113px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .wrote_campaign-logo {
+    display: flex;
+    flex-direction: column; }
+  .help_thiago-title {
+    padding-left: 70px; }
+  .help_frames {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .blog_thiago-title {
+    padding-left: 70px; }
+  .signed_title h2 {
+    padding-left: 70px; }
+  .invested_text h2 {
+    padding-left: 70px; }
+  .depositions_content {
+    flex-direction: column; }
+  .depositions_count {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .depositions_count ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+  .depositions_count ul .count_border {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #A6A6A6;
+    border-left: 1px solid #A6A6A6;
+    border-top: none;
+    padding-top: 0;
+    padding-left: 10px; } }
+
+@media (max-width: 768px) {
+  .content_big-campaign {
+    padding-top: 800px;
+    padding-left: 70px; }
+  .header_topo {
+    background-image: url(../../dist/img/bg/bg_header_sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  .content_written-campaign {
+    padding-left: 70px; }
+  .invested_text {
+    padding-left: 70px; }
+  .content_wrote-campaign {
+    display: flex;
+    padding-left: 70px; }
+  .wrote_campaign-img {
+    padding-top: 113px; }
+  .wrote_campaign-logo {
+    display: flex;
+    flex-direction: column; }
+  .help_thiago-title {
+    padding-left: 70px; }
+  .blog_thiago-title {
+    padding-left: 70px; }
+  .signed_title h2 {
+    padding-left: 70px; }
+  .invested_text h2 {
+    padding-left: 0px; } }
