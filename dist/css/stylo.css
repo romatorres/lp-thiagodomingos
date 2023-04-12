@@ -8762,7 +8762,7 @@ a:link, a:visited, a:active {
   background-size: contain;
   background-position: left; }
 
-.help_thiago-title {
+.help_thiago-title h2, .help_thiago-title .h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 2.625rem;
@@ -8844,7 +8844,7 @@ a:link, a:visited, a:active {
 .blog_thiago {
   background-color: #F4F6F7; }
 
-.blog_thiago-title {
+.blog_thiago-title h2, .blog_thiago-title .h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 2.625rem;
@@ -8863,9 +8863,15 @@ a:link, a:visited, a:active {
   display: flex;
   justify-content: center;
   padding-top: 64px;
-  gap: 136px; }
+  gap: 100px; }
 
-.card_blog {
+.card_blog1 {
+  width: 293px; }
+
+.card_blog2 {
+  width: 293px; }
+
+.card_blog3 {
   width: 293px; }
 
 .card_title h3, .card_title .h3 {
@@ -8974,8 +8980,8 @@ a:link, a:visited, a:active {
   z-index: 10;
   font-style: normal;
   font-weight: 500;
-  font-size: 52px;
-  line-height: 120%;
+  font-size: 3.25rem;
+  line-height: 100%;
   text-align: center;
   color: #FFFFFF; }
 
@@ -9011,7 +9017,7 @@ a:link, a:visited, a:active {
 .contact_thiago {
   background-color: #1A1A1A; }
 
-.title_contact-thiago {
+.title_contact-thiago h2, .title_contact-thiago .h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 2.625rem;
@@ -9021,9 +9027,10 @@ a:link, a:visited, a:active {
   padding-bottom: 52px;
   padding-left: 180px; }
 
-.form_thiago {
+.form_contact {
   display: flex;
   justify-content: end;
+  align-items: end;
   padding-right: 182px;
   padding-bottom: 58px; }
 
