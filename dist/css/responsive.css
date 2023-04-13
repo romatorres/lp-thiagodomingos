@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
+  .floating_menu {
+    display: none; }
   .content_big-campaign {
     padding-top: 700px;
     padding-left: 70px; }
@@ -80,6 +82,8 @@
   .header_topo .logo_topo {
     margin-left: 30px;
     margin-top: 22px; }
+  .floating_menu {
+    display: none; }
   .content_big-campaign {
     padding-top: 290px;
     padding-left: 30px; }

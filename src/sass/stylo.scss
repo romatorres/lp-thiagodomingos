@@ -52,10 +52,13 @@ a:link, a:visited, a:active{
     color: #ffffff !important;
     transform: scale(1.05);
 }
+.header_topo .navbar-collapse {
+    width: auto;
+  }
 .navbar-toggler{
     margin-right: 60px;
-    margin-top: 22px;
-    border-color: #dcd9d9 !important;
+    margin-top: 30px;
+    border-color: #454545 !important;
 }
 
 /* TEXTO HEADER */
